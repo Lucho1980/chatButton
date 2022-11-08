@@ -27,8 +27,8 @@
 			// Returns a valid button ID.
 		//};
 		embedded_svc.settings.prepopulatedPrechatFields = {
-			Subject: 'prepopulatedPrechatFields',
-			Utm_Campaign: 'testUtmCamp'
+			Title: 'prepopulatedPrechatFields',
+			Name: 'Invitado'
 		};
 		 //Sets the auto-population of pre-chat form fields
 		//embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
