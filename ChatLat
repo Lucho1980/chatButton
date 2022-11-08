@@ -32,11 +32,11 @@
 		};
 		embedded_svc.settings.extraPrechatFormDetails = [{  
    		 "label":"Utm Campaign",
-   		 "value":”testUtm Campaign”,
+   		 "value":"testUtm Campaign",
  		   "transcriptFields":[ "utm_campaign__c" ],
   		  "displayToAgent":true
 			}];
-
+		
 		 //Sets the auto-population of pre-chat form fields
 		//embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
 		//embedded_svc.settings.offlineSupportMinimizedText = '...'; //(Defaults to Contact Us)
