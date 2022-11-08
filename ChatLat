@@ -28,7 +28,7 @@
 		//};
 		embedded_svc.settings.prepopulatedPrechatFields = {
 			Title: 'prepopulatedPrechatFields',
-			Name: 'Invitado'
+			FirstName: 'Invitado'
 		};
 		 //Sets the auto-population of pre-chat form fields
 		//embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
