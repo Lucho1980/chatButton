@@ -28,7 +28,8 @@
 		//};
 		embedded_svc.settings.prepopulatedPrechatFields = {
 			Title: 'prepopulatedPrechatFields',
-			Phone: '5411545487'
+			Phone: '5411545487',
+			Company: 'Company'
 		};
 		 //Sets the auto-population of pre-chat form fields
 		//embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
