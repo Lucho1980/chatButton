@@ -30,23 +30,12 @@
 			Phone: '5411545487',
 			Company: 'Company'
 		};
-		embedded_svc.settings.extraPrechatFormDetails = [{
-  "label": "First Name",
-  "value": "John",
-  "displayToAgent": true
-}, {
-  "label": "Last Name",
-  "value": "Doe",
-  "displayToAgent": true
-}, {
-  "label": "Email",
-  "value": "john.doe@salesforce.com",
-  "displayToAgent": true
-}, {
-  "label": "issue",
-  "value": "Overriding your setup",
-  "displayToAgent": true
-}];
+		embedded_svc.settings.extraPrechatFormDetails = [{  
+   		 "label":"Utm Campaign",
+   		 "value":”testUtm Campaign”,
+ 		   "transcriptFields":[ "utm_campaign__c" ],
+  		  "displayToAgent":true
+			}];
 
 		 //Sets the auto-population of pre-chat form fields
 		//embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
