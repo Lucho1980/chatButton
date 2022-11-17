@@ -56,7 +56,7 @@
 		embedded_svc.settings.entryFeature = 'LiveAgent';
                 
 		embedded_svc.settings.smallCompanyLogoImgURL = 'https://openeducation--stg--c.sandbox.vf.force.com/resource/1667999759000/ChatAvatar';
-		embedded_svc.settings.chatbotAvatarImgURL = 'https://openeducation--stg--c.sandbox.vf.force.com/resource/1667999759000/ChatAvatar';
+		embedded_svc.settings.chatbotAvatarImgURL = 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fsearch%3Fq%3Dchatbot&psig=AOvVaw3_6beS1vHoG36TpMhSSFbU&ust=1668786565351000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCJCPnsfItfsCFQAAAAAdAAAAABAD';
 		embedded_svc.init(
 			'https://openeducation--stg.sandbox.my.salesforce.com',
 			'https://openeducation--stg.sandbox.my.salesforce-sites.com/oeapi',
