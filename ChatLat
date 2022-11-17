@@ -54,7 +54,9 @@
 
 		embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 		embedded_svc.settings.entryFeature = 'LiveAgent';
-
+                
+		embedded_svc.settings.smallCompanyLogoImgURL = 'https://openeducation--stg--c.sandbox.vf.force.com/resource/1667999759000/ChatAvatar';
+		embedded_svc.settings.chatbotAvatarImgURL = 'https://openeducation--stg--c.sandbox.vf.force.com/resource/1667999759000/ChatAvatar';
 		embedded_svc.init(
 			'https://openeducation--stg.sandbox.my.salesforce.com',
 			'https://openeducation--stg.sandbox.my.salesforce-sites.com/oeapi',
