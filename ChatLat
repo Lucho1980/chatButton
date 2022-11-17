@@ -31,9 +31,22 @@
 		embedded_svc.settings.extraPrechatFormDetails = [{  
    		"label":"Utm Campaign",
    		"value":"testUtm Campaign",
- 		"transcriptFields":[ "utm_campaign__c" ],
+ 		"transcriptFields":[ "utmCampaign__c" ],
   		"displayToAgent":true
-		}];
+		},
+		{  
+   		"label":"Utm Source",
+   		"value":"testUtm Source",
+ 		"transcriptFields":[ "utmSource__c" ],
+  		"displayToAgent":true
+		},
+		{  
+   		"label":"Utm Medium",
+   		"value":"testUtm Medium",
+ 		"transcriptFields":[ "utmMedium__c" ],
+  		"displayToAgent":true
+		}
+		];
 		
 		 //Sets the auto-population of pre-chat form fields
 		//embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
